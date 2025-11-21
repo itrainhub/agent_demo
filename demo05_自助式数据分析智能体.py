@@ -51,8 +51,6 @@ df = None
 
 # 模型
 model = ChatOpenAI(
-    base_url='https://api.deepseek.com/v1',
-    api_key=SecretStr('sk-5540161374c74948b64385cdfbc24b62'),
     model='deepseek-reasoner'
 )
 
